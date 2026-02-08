@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './ItemsList.css';
 
-const API_URL = 'http://localhost:8080';
+const API_URL = 'https://shoppingcart-dvkk.onrender.com';
 
 function ItemsList({ token, userId, onLogout }) {
   const [items, setItems] = useState([]);
