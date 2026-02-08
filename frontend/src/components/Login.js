@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Login.css';
 
-const API_URL = 'http://localhost:8080';
+const API_URL = 'https://shoppingcart-dvkk.onrender.com';
 
 function Login({ onLogin }) {
   const [username, setUsername] = useState('');
